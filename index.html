@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pig Dice</h1>
+      <h3>How to Play</h3>
+      <ul>
+        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+        <li>The first player to score 100 or more points wins.</li>
+      </ul>
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <div id="playerOne">
+            <h4>Player One</h4>
+            <button id="playerOnePlay" button type="submit" class="btn">Roll the Dice</button>
+            <div class="well">
+              <p>Score Goes Here</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div id="playerTwo">
+            <h4>Player Two</h4>
+            <button id="playerTwoPlay" button type="submit" class="btn">Roll the Dice</button>
+            <div class="well">
+              <p>Score Goes Here</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
